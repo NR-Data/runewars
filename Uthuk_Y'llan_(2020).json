@@ -1,0 +1,4673 @@
+{
+  "catalogue": {
+    "name": "Uthuk Y'llan",
+    "id": "9842-8651-1cb7-30b4",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "8c15-bb29-54a4-9982",
+    "gameSystemRevision": 36,
+    "library": false,
+    "revision": 6,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Beserkers",
+        "id": "7679-77fb-50b9-644e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "9751-f447-6939-f261",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5125-5eea-e72a-c41c", "hidden": false, "primary": true, "targetId": "98a3-99cd-95be-3334"}]
+      },
+      {
+        "name": "Flesh Rippers",
+        "id": "9950-f4a0-a17e-41b4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "438e-0c39-0d9c-3dad",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7bfd-daa6-c735-366c", "hidden": false, "primary": true, "targetId": "2cc7-a84f-a61e-6c1c"}]
+      },
+      {
+        "name": "Spined Threshers",
+        "id": "cedc-586b-2655-aa5e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "6117-bd29-d52c-5b9d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1748-89b0-0782-ddd3", "hidden": false, "primary": true, "targetId": "3ff1-c335-bd67-644a"}]
+      },
+      {
+        "name": "Ravos the Everhungry",
+        "id": "1d24-b73c-38fe-e0ea",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "7b00-d97e-8028-d00a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Siege", "id": "9aaf-35d9-a956-d659", "hidden": false, "primary": false, "targetId": "3ff1-c335-bd67-644a"}]
+      },
+      {
+        "name": "Obscenes",
+        "id": "30b6-191b-a768-7d5e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "14cc-2968-69a0-fe3d",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Siege", "id": "19f8-0bd2-6879-2310", "hidden": false, "primary": false, "targetId": "3ff1-c335-bd67-644a"}]
+      },
+      {
+        "name": "Viper Legion Archers",
+        "id": "c71e-461b-baa0-4b69",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4998-4a4f-5b60-9240",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "Infantry", "id": "fdf8-1f68-b93a-b675", "hidden": false, "primary": false, "targetId": "98a3-99cd-95be-3334"}]
+      },
+      {
+        "name": "Kethra A'laak",
+        "id": "fb54-f52a-0c35-f1f6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "fa6c-3fcf-0713-d023",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Th'Uk Tar and Gorgemaw",
+        "id": "9e5b-74dc-1d50-786b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5445-c85c-0539-1956",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Beastmaster Th'Uk Tar",
+        "id": "e032-7cce-ad60-bac9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "ab42-5174-a6ce-4b73",
+        "type": "selectionEntry"
+      }
+    ],
+    "publications": [
+      {"name": "Uthuk Y'llan Army Expansion, Bersekers Unit Expansion", "id": "9842-8651-pubN65724"},
+      {"name": "Uthuk Y'llan Army Expansion", "id": "9842-8651-pubN67287"},
+      {"name": "Uthuk Y'llan Army Expansion, Spined Threshers Unit Expansion", "id": "9842-8651-pubN69407"},
+      {"name": "Uthuk Y'llan Army Expansion, Flesh Rippers Unit Expansion", "id": "d711-dbee-6546-2030"},
+      {"name": "Viper Legion Unit Expansion", "id": "1a3d-12ae-4f36-6569"},
+      {"name": "Beastmaster Th'Uk Tar Hero Expansion", "id": "8a91-51fb-baea-03ea"},
+      {"name": "Kethra A'laak Hero Expansion", "id": "4d98-5d55-5f36-7a01"},
+      {"name": "Obscenes Unit Expansion", "id": "eb7f-2143-aa07-1b7b"},
+      {"name": "Uthuk Y'llan Infantry Command Unit Upgrade Expansion", "id": "60b8-0041-a2bd-5439"},
+      {"name": "Berserkers Unit Expansion", "id": "0971-2772-93ec-46e6"},
+      {"name": "Flesh Rippers Unit Expansion", "id": "87cf-2ead-294a-b61e"},
+      {"name": "Spined Threshers Unit Expansion", "id": "bbb5-3dc6-8eaa-5a1c"}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Beserkers",
+        "id": "9751-f447-6939-f261",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "9842-8651-pubN65724",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5ba7-48ce-5770-9db9", "hidden": false, "primary": true, "targetId": "98a3-99cd-95be-3334"}],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Heraldry",
+            "id": "f7bf-6595-dc07-4871",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cc99-cbe0-d538-0655",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Equipment",
+            "id": "2a20-76fa-6aa2-89ad",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "878f-3cce-b6d2-e273",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Champion",
+            "id": "7ce7-8bd9-f4b8-96ff",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "e94b-900b-8795-bdc7",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "9083-5632-5b94-7ffa",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "7dad-c009-5308-e965",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "0fcc-8e4e-27fe-df1f",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Music",
+            "id": "962f-5090-f14b-82e6",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "1fa6-65e2-88f0-b03e",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "0fcc-8e4e-27fe-df1f",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "7dad-c009-5308-e965",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heavy",
+            "id": "4dbc-5fcc-6fb5-01f3",
+            "collective": false,
+            "hidden": true,
+            "import": true,
+            "targetId": "975d-b0ec-af0f-407c",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": false,
+                "conditions": [
+                  {
+                    "childId": "7dad-c009-5308-e965",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Steadfast [X]",
+            "id": "d46e-c0ab-f1fb-8887",
+            "hidden": false,
+            "targetId": "94ec-3f37-454f-92ad",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Steadfast [Fear]"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Berserkers",
+            "id": "12d3-7d6c-fedf-e8df",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "1", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "1", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1 Red 1 Blue", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Berserkers - Melee Ability",
+            "id": "c4e6-6472-0c83-db96",
+            "description": "You may suffer 1 wound to gain Lethal 1 for this Melee Attack. Limit twice per Melee Attack.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": " Unit Size",
+            "id": "7255-51f5-cca5-ad25",
+            "collective": false,
+            "defaultSelectionEntryId": "558a-924c-1412-5004",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "412b-67c4-24f4-6b73",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4399-7ee8-dd7d-cde9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x1 Trays",
+                "id": "558a-924c-1412-5004",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 16}]
+              },
+              {
+                "name": "2x2 Trays",
+                "id": "9083-5632-5b94-7ffa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 27}]
+              },
+              {
+                "name": "3x2 Trays",
+                "id": "0fcc-8e4e-27fe-df1f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 37}]
+              },
+              {
+                "name": "3x3 Trays",
+                "id": "7dad-c009-5308-e965",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 50}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flesh Rippers",
+        "id": "438e-0c39-0d9c-3dad",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "d711-dbee-6546-2030",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a642-69f7-38a8-8387", "hidden": false, "primary": true, "targetId": "2cc7-a84f-a61e-6c1c"}],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique",
+            "id": "94b6-0a60-163f-1004",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Training",
+            "id": "52e2-d9e0-0a90-58a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a0e7-4dd8-e2e2-b31a",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "4be2-50aa-d6cc-1427",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Champion",
+            "id": "0b7c-a904-f748-00eb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e94b-900b-8795-bdc7",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "b42b-67cf-6615-36c1",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "4be2-50aa-d6cc-1427",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Flesh Rippers",
+            "id": "950c-eaf5-cf73-7be1",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "1", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "3", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1 Red 2 Blue", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Flesh Rippers - Melee Surge+ Ability",
+            "id": "271e-3761-ff4b-745a",
+            "description": "Choose an enemy engaged with you. It suffers damage equal to the Surge spent.",
+            "hidden": false
+          },
+          {
+            "name": "Flesh Rippers - Passive Ability",
+            "id": "f4cb-9529-81a3-6b5a",
+            "description": "Before you reveal your command tool, you must perform a speed-1 Shift.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": " Unit Size",
+            "id": "b2a0-b4da-009c-495b",
+            "collective": false,
+            "defaultSelectionEntryId": "4be2-50aa-d6cc-1427",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "7b03-3dcd-4196-9fcd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "5ff3-e5f0-c91c-af25",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x1 Trays",
+                "id": "4be2-50aa-d6cc-1427",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 22}]
+              },
+              {
+                "name": "2x2 Trays",
+                "id": "b42b-67cf-6615-36c1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 38}]
+              },
+              {
+                "name": "3x2 Trays",
+                "id": "7f17-7cd6-66e2-1e6a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 63}]
+              },
+              {
+                "name": "3x3 Trays",
+                "id": "7ad5-86c4-ae84-d054",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 75}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spined Threshers",
+        "id": "6117-bd29-d52c-5b9d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "9842-8651-pubN69407",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1672-eb1f-5453-2b8b", "hidden": false, "primary": true, "targetId": "3ff1-c335-bd67-644a"}],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique",
+            "id": "f360-e147-cf38-0819",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "3262-f13f-1c64-876d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Champion",
+            "id": "8c15-8894-3f3b-4897",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e94b-900b-8795-bdc7",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "3262-f13f-1c64-876d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "03ad-4d01-3c35-bdc1",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipment",
+            "id": "d591-15d0-3e22-7067",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "878f-3cce-b6d2-e273",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "03ad-4d01-3c35-bdc1",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "3262-f13f-1c64-876d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      },
+                      {
+                        "childId": "43d1-8943-4616-c43a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Steadfast [X]",
+            "id": "b728-1735-1b27-90ec",
+            "hidden": false,
+            "targetId": "94ec-3f37-454f-92ad",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Steadfast [Fear]"}]
+          },
+          {
+            "name": "Brutal [X]",
+            "id": "06eb-29d3-dfb9-bf60",
+            "hidden": false,
+            "targetId": "4bc3-5a1a-a748-31de",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Brutal 1"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Spined Threshers",
+            "id": "d5d1-6cfc-2648-a204",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "2", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "5", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "2 Red", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Spined Threshers - Melee Ability",
+            "id": "e3f3-dec0-0625-3108",
+            "description": "If the defender has a panic token, you may reroll 1 die.",
+            "hidden": false
+          },
+          {
+            "name": "Spined Threshers - Passive Ability",
+            "id": "256a-2fcd-df7c-062f",
+            "description": "After your activation, each enemy at range 1-[Unstable Rune] without a panic token receives 1 panic token.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": " Unit Size",
+            "id": "efd1-04db-b35e-30c9",
+            "collective": false,
+            "defaultSelectionEntryId": "3262-f13f-1c64-876d",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a8cc-f162-ea43-0155",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "3cfd-cce3-e8cf-e34a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1 Tray",
+                "id": "3262-f13f-1c64-876d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 18}]
+              },
+              {
+                "name": "2x1 Trays",
+                "id": "03ad-4d01-3c35-bdc1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 28}]
+              },
+              {
+                "name": "2x2 Trays",
+                "id": "43d1-8943-4616-c43a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 48}]
+              },
+              {
+                "name": "3x2 Trays",
+                "id": "2cd7-0c62-cf0d-7e18",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 72}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ravos the Everhungry",
+        "id": "7b00-d97e-8028-d00a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "9842-8651-pubN67287",
+        "type": "unit",
+        "categoryLinks": [{"name": "Siege", "id": "ff62-f870-597f-e9d2", "hidden": false, "primary": true, "targetId": "3ff1-c335-bd67-644a"}],
+        "constraints": [
+          {
+            "id": "3602-d88d-7a99-e7f8",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": false,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Artifact",
+            "id": "e99b-ab1b-0979-b047",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "84e2-2023-df3b-f18c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Unique",
+            "id": "26ba-b616-9499-976e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Unique Unit",
+            "id": "41c9-7122-680e-bee9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a20e-e06c-42d8-c597",
+            "type": "selectionEntry"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Brutal [X]",
+            "id": "9c49-886e-1e04-3894",
+            "hidden": false,
+            "targetId": "4bc3-5a1a-a748-31de",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Brutal 1"}]
+          },
+          {
+            "name": "Precise [X]",
+            "id": "23d8-73ef-0a95-1796",
+            "hidden": false,
+            "targetId": "4309-11a6-e7f5-5a76",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+          },
+          {
+            "name": "Steadfast [X]",
+            "id": "1a44-7695-963e-21de",
+            "hidden": false,
+            "targetId": "94ec-3f37-454f-92ad",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Steadfast [Fear 2]"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "3602-d88d-7a99-e7f8",
+            "type": "set",
+            "value": 0,
+            "conditions": [
+              {
+                "childId": "8f93-9c73-b329-3f2a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ravos the Everhungry",
+            "id": "cee2-9a73-36a0-6674",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "2", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "7", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1  White 1 Red 1 Blue", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Ravos the Everhungry - Melee Unique Surge Ability",
+            "id": "16dd-64d1-fd64-2886",
+            "description": "Each enemy at range 1 suffers 1 would.",
+            "hidden": false
+          },
+          {
+            "name": "Ravos the Everhungry - Passive Ability",
+            "id": "c00f-6ffc-3606-214c",
+            "description": "Before each End Phase, you must choose a unit at range 1. It suffers 1 wound.",
+            "hidden": false
+          },
+          {"name": "Ynfernael Presence", "id": "3221-41bd-d79e-8257", "description": "After setup, each enemy receives 1 panic token.", "hidden": false}
+        ],
+        "selectionEntries": [
+          {
+            "name": "1 Tray",
+            "id": "1857-5511-2386-3098",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "1c81-8ca4-6b75-ec9d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7d84-493e-5a95-4320",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 40}]
+          }
+        ]
+      },
+      {
+        "name": "Obscenes",
+        "id": "14cc-2968-69a0-fe3d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "eb7f-2143-aa07-1b7b",
+        "type": "unit",
+        "categoryLinks": [{"name": "Siege", "id": "5b9d-3e90-0bf8-6dba", "hidden": false, "primary": true, "targetId": "3ff1-c335-bd67-644a"}],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique",
+            "id": "9893-7fc2-8f20-d832",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Champion",
+            "id": "e464-a94d-3c77-dd5c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e94b-900b-8795-bdc7",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "childId": "3262-f13f-1c64-876d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "equalTo",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Protected [X]",
+            "id": "ff39-8d0a-8eff-0a01",
+            "hidden": false,
+            "targetId": "4b78-f83c-2b4b-61a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protected 1"}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Spined Threshers",
+            "id": "9b69-acb3-3237-0208",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "2", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "4", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "2 Red 1 Blue", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Obscenes - Skill Ability",
+            "id": "53b5-cda7-a925-2c06",
+            "description": "Choose an enemy engaged with you that has no more than three times your number of trays. That enemy performs a speed-1 Shift in a direction of your choice. This Shift cannot be used to enter or exit terrain.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": " Unit Size",
+            "id": "6d16-a176-e108-0f9c",
+            "collective": false,
+            "defaultSelectionEntryId": "7cc2-5620-0711-2e02",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b951-246f-8ee6-51bd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4a18-c36c-527d-4066",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "1 Tray",
+                "id": "7cc2-5620-0711-2e02",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 17}]
+              },
+              {
+                "name": "2x1 Trays",
+                "id": "cbd5-9cb3-e17b-e548",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 27}]
+              },
+              {
+                "name": "2x2 Trays",
+                "id": "5315-49bc-53f2-817c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 47}]
+              },
+              {
+                "name": "2x3 Trays",
+                "id": "e2d9-d92b-0ac3-368c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 70}]
+              }
+            ]
+          },
+          {"name": "Music", "id": "f44c-e11d-9078-a4b4", "collective": false, "hidden": false, "import": true},
+          {
+            "name": "Training",
+            "id": "e63f-a5c9-d5b7-fd78",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "7cc2-5620-0711-2e02",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": false,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cbd5-9cb3-e17b-e548",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Viper Legion Archers",
+        "id": "4998-4a4f-5b60-9240",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "1a3d-12ae-4f36-6569",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "78d2-7e53-b383-d966", "hidden": false, "primary": true, "targetId": "98a3-99cd-95be-3334"}],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Champion",
+            "id": "35b0-3777-4b54-ea7d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e94b-900b-8795-bdc7",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "063a-0349-11cc-f817",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Training",
+            "id": "a3b3-d4b6-2061-e327",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a0e7-4dd8-e2e2-b31a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Music",
+            "id": "7591-5fe1-977b-c030",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1fa6-65e2-88f0-b03e",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Equipment",
+            "id": "3dfe-8bd2-9199-e7b5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "878f-3cce-b6d2-e273",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "063a-0349-11cc-f817",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Heraldry",
+            "id": "f92a-5cf6-5d4d-15a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "cc99-cbe0-d538-0655",
+            "type": "selectionEntryGroup",
+            "modifiers": [
+              {
+                "field": "hidden",
+                "type": "set",
+                "value": true,
+                "conditions": [
+                  {
+                    "childId": "063a-0349-11cc-f817",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d1c8-bc6f-d92f-9b2e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "equalTo",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Viper Legion Archers",
+            "id": "b00e-e0c6-126a-b3a6",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "1", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "1", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "2 Blue", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1 Red", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Viper Legion Archers - Ranged Surge Ability",
+            "id": "8fc8-ebbd-1a9e-54e0",
+            "description": "2 Surge: Gain Lethal 1 for this Ranged Attack.",
+            "hidden": false
+          },
+          {
+            "name": "Viper Legion Archers - Ranged Unique Surge Ability",
+            "id": "fa97-4a13-9f5b-e292",
+            "description": "2 Unique Surge: If there are at least 2 [Unstable Rune], the defender receives 1 panic token.",
+            "hidden": false
+          },
+          {
+            "name": "Viper Legion Archers - Ranged Ability",
+            "id": "7ba2-82a2-060d-7334",
+            "description": "If the defender has a bane, the number of Surge that precedes your Surge abilities is reduced by 1, to a minimum of 1. This does not affect Surge+ abilities.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unit Size",
+            "id": "d116-c7f9-0c04-d65d",
+            "collective": false,
+            "defaultSelectionEntryId": "063a-0349-11cc-f817",
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "4502-13e7-d7ea-23f9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "3043-437e-5f7c-f685",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "2x1 Trays",
+                "id": "063a-0349-11cc-f817",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 18}]
+              },
+              {
+                "name": "2x2 Trays",
+                "id": "d1c8-bc6f-d92f-9b2e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 33}]
+              },
+              {
+                "name": "3x2 Trays",
+                "id": "0c7c-086d-b1b2-0ddf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 46}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kethra A'laak",
+        "id": "fa6c-3fcf-0713-d023",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "4d98-5d55-5f36-7a01",
+        "type": "unit",
+        "categoryLinks": [{"name": "Cavalry", "id": "e692-edb1-63fa-dc94", "hidden": false, "primary": true, "targetId": "2cc7-a84f-a61e-6c1c"}],
+        "constraints": [
+          {
+            "id": "0ce5-fbb9-0c74-1033",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique Unit",
+            "id": "7312-c730-1222-1a3a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a20e-e06c-42d8-c597",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Artifact",
+            "id": "939f-ca0c-a599-c77e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "84e2-2023-df3b-f18c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Unique",
+            "id": "febf-03d4-7d81-2525",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Brutal [X]",
+            "id": "3558-c0a5-1e59-65b2",
+            "hidden": false,
+            "targetId": "4bc3-5a1a-a748-31de",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Brutal 1"}]
+          },
+          {
+            "name": "Precise [X]",
+            "id": "219c-b3ec-6804-4966",
+            "hidden": false,
+            "targetId": "4309-11a6-e7f5-5a76",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "0ce5-fbb9-0c74-1033",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "abd8-b1a0-8782-6e2a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "287b-fbf1-0554-3a0c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Kethra A'laak",
+            "id": "059d-4f89-8011-a412",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "3", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "3", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "2 White", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Kethra A'laak - Melee Surge Ability", "id": "c9cb-1617-c1e1-3b6a", "description": "Surge: The defender suffers 2 damage.", "hidden": false},
+          {
+            "name": "Kethra A'laak - Skill Ability",
+            "id": "712b-1bec-adef-f1d7",
+            "description": "Choose an ally and roll 1 white die. That ally and each enemy at range 1-2 of that ally suffers wounds equal to the hit results.",
+            "hidden": false
+          },
+          {
+            "name": "Twisted Bone",
+            "id": "17c5-d8df-2e70-4cf8",
+            "description": "After deployment, choose up to 2 allies. Those allies receive the \"Unnatural Growths\" condition.\n\nUnnatural Growths: After defending against a Melee Attack, the attacker suffers 2 damage.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1 Tray",
+            "id": "3197-e283-aa82-135a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "5cee-7c7b-ac03-8f63",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6594-3dd3-ea12-4ecd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 34}]
+          }
+        ]
+      },
+      {
+        "name": "Th'Uk Tar and Gorgemaw",
+        "id": "5445-c85c-0539-1956",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "8a91-51fb-baea-03ea",
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fdc1-3fa7-f791-3300", "hidden": false, "primary": true, "targetId": "3ff1-c335-bd67-644a"}],
+        "constraints": [
+          {
+            "id": "2079-5ba0-f8ff-98d0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique Unit",
+            "id": "7e6e-f6c7-7fa7-eecf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a20e-e06c-42d8-c597",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Artifact",
+            "id": "a949-8172-1f64-9d57",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "84e2-2023-df3b-f18c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Unique",
+            "id": "c98d-cabc-198a-1c3a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Lethal [X]",
+            "id": "fbf4-c2a7-6d37-bdd5",
+            "hidden": false,
+            "targetId": "4734-4adc-bba1-0b47",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Lethal 1"}]
+          },
+          {
+            "name": "Precise [X]",
+            "id": "84b3-b892-2998-26f8",
+            "hidden": false,
+            "targetId": "4309-11a6-e7f5-5a76",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+          },
+          {
+            "name": "Protected [X]",
+            "id": "5ea5-a972-3c82-8794",
+            "hidden": false,
+            "targetId": "4b78-f83c-2b4b-61a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protected 1"}]
+          },
+          {"name": "Scout", "id": "2305-1505-b30c-2ab8", "hidden": false, "targetId": "6221-2275-02d3-4099", "type": "rule"}
+        ],
+        "modifiers": [
+          {
+            "field": "2079-5ba0-f8ff-98d0",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "61d0-2f3a-201a-38c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "0aa7-de8d-c681-d208",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ab42-5174-a6ce-4b73",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Th'Uk Tar and Gorgemaw",
+            "id": "f2a2-c64b-4799-fd9a",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "3", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "5", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1 White 1 Red", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Th'Uk Tar and Gorgemaw - Melee Ability",
+            "id": "1550-9a27-a5cf-029f",
+            "description": "Your front edge is treated as touching the front edge of all enemies at range 1 and in your front firing arc that you are not engaged with.",
+            "hidden": false
+          },
+          {
+            "name": "Th'Uk Tar and Gorgemaw - Passive Ability",
+            "id": "8cc4-39dd-41de-9396",
+            "description": "When you perform a March you may increase its speed by 1. When you perform a Shift, you may treat it as modified by Turn.",
+            "hidden": false
+          },
+          {
+            "name": "The Slavering Horde",
+            "id": "42da-badb-5a85-c35e",
+            "description": "After setup, each ally at range 1-5 of Th'Uk Tar and Gorgemaw may suffer 1 wound to receive 1 inspiration token.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1 Tray",
+            "id": "a6b8-3311-8e46-f02a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "09cf-0ae1-dbaa-901c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9726-bd7f-8839-0aae",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 42}]
+          }
+        ]
+      },
+      {
+        "name": "Beastmaster Th'Uk Tar",
+        "id": "ab42-5174-a6ce-4b73",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "publicationId": "8a91-51fb-baea-03ea",
+        "type": "unit",
+        "categoryLinks": [{"name": "Cavalry", "id": "5a90-7579-f81b-502b", "hidden": false, "primary": true, "targetId": "2cc7-a84f-a61e-6c1c"}],
+        "constraints": [
+          {
+            "id": "dce4-e44a-6d47-7840",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Unique Unit",
+            "id": "9c53-812e-3b50-1b11",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "a20e-e06c-42d8-c597",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Artifact",
+            "id": "2e8a-f835-ea3e-e545",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "84e2-2023-df3b-f18c",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Unique",
+            "id": "f9e2-e8ca-431b-343c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4aaa-1b72-1e41-2434",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Precise [X]",
+            "id": "91c0-a585-2ae6-f36a",
+            "hidden": false,
+            "targetId": "4309-11a6-e7f5-5a76",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+          },
+          {
+            "name": "Protected [X]",
+            "id": "3403-84d6-62f5-5aef",
+            "hidden": false,
+            "targetId": "4b78-f83c-2b4b-61a6",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "set", "value": "Protected 1"}]
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "dce4-e44a-6d47-7840",
+            "type": "set",
+            "value": 0,
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "61d0-2f3a-201a-38c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "61d0-2f3a-201a-38c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5445-c85c-0539-1956",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "atLeast",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Beastmaster Th'Uk Tar",
+            "id": "affb-8cc2-36b5-9305",
+            "hidden": false,
+            "typeId": "d30b-0349-297b-76db",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Defense", "$text": "2", "typeId": "7cf7-db3d-20b4-3ee8"},
+              {"name": "Wound Threshold", "$text": "5", "typeId": "aa47-e393-e539-b8e5"},
+              {"name": "Ranged Die", "$text": "-", "typeId": "8dc7-1ab7-4083-38cb"},
+              {"name": "Melee Die", "$text": "1 Wite 1 Red", "typeId": "9cf6-3b5e-3c94-0ef4"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Beastmaster Th'Uk Tar - Melee Ability",
+            "id": "068f-1865-507b-e6c4",
+            "description": "Your front edge is treated as touching the front edge of all enemies at range 1 and in your front firing arc that you are not engaged with.",
+            "hidden": false
+          },
+          {
+            "name": "Beastmaster Th'Uk Tar - Skill ability",
+            "id": "4b35-82eb-6ce0-1166",
+            "description": "You may choose a non-unique ally at range 1-2. It suffers 1 wound, then performs either a Reform or speed-1 Shift.",
+            "hidden": false
+          },
+          {
+            "name": "Called to Heel",
+            "id": "a51c-8d33-c66a-b3ad",
+            "description": "After deployment, you may remove 1 allied non-unique unit from the play area then redeploy that unit at range 1 of beastmaster Th'Uk Tar and within your deployment area.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "1 Tray",
+            "id": "d5b2-07b8-64db-6cf2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "da27-854c-61c7-ec56",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "39fc-d283-a31f-9495",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 36}]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Heraldry",
+        "id": "cc99-cbe0-d538-0655",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "eb57-415c-9d41-e71e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Heraldry - Common",
+            "id": "c113-db72-fd8b-21de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "dafc-f19e-db1b-2401",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Heraldry - Uthuk",
+            "id": "e7fc-1c22-41ac-f218",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "d439-5ab0-3f17-b72d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": " Bannerscamp",
+                "id": "8de9-fa94-84e6-d2d5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": " Bannerscamp",
+                    "id": "65fa-028d-834b-4ac7",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": " Bannerscamp - Passive Ability",
+                    "id": "468f-5452-55a8-31a6",
+                    "description": "When an enemy at range 1-5 would suffer a morale test, you may instead cause it to receive panic tokens equal to the severity of that test. Limit once per round.\n\nAfter an enemy at range 1-5 performs a Rally, it receives 1 panic token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Rage Spine",
+                "id": "93c8-45b5-6489-649a",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Rage Spine",
+                    "id": "07f8-2e4b-4b0a-49a9",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Rage Spine - Passive Ability",
+                    "id": "e27c-18f5-bcd8-30eb",
+                    "description": "After an enemy at range 1-[Unstable Rune] suffers the effects of a morale card with 1 morale symbol, you may also suffer the effects of that card. If you do, that enemy suffers the effects of that card again.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Warsprinter",
+                "id": "a1c9-a22a-3df9-33b0",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "7b00-d97e-8028-d00a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Warsprinter",
+                    "id": "5c95-f5c5-4b2c-70d6",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "1", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Warsprinter - Passive Ability",
+                    "id": "4db8-93f3-a013-0713",
+                    "description": "While your command tool is revealed, allies gain:\n\nSkill : Perform a speed-1 March.\n\nYou also gain:\n\nSkill : Perform a speed-[Unstable Rune] March.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Bloodrage Conduit",
+                "id": "4cde-a6bf-f1a8-eb60",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "rules": [
+                  {
+                    "name": "Bloodrage Conduit - Melee Ability",
+                    "id": "0523-cb0e-3c1d-2331",
+                    "description": "You may exhaust any number of your \"Bloodrage Conduits\" to gain Lethal 1 during this Melee Attack for each card exhausted this way.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Bloodrage Conduit - Passive Ability",
+                    "id": "d1da-dc6e-0907-3cea",
+                    "description": "Before you are destroyed, you may ready 1 \"Bloodrage Conduit\" in your army, even if this card is exhausted.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artifact",
+        "id": "84e2-2023-df3b-f18c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "5434-d416-072c-547f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Artifact - Common",
+            "id": "7a2a-1048-12ea-2db2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d666-4b2a-f65e-0e17",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Artifact - Uthuk",
+            "id": "d6a3-3dab-ca22-2410",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bb6f-c506-b3ae-86e6",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Viscera Goblet",
+                "id": "b1a8-1275-5d17-9eff",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+                "rules": [
+                  {
+                    "name": "Viscera Goblet - Passive Ability",
+                    "id": "e33d-e2c4-fff8-357b",
+                    "description": "After setup, place 1 wound token on this card.\n\nAfter your activation, you may discard 1 wound token from this card to remove 1 wound.\n\nWhen an enemy at range 1 is destroyed, place 1 wound token on this card.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Fearmonger's Whip",
+                "id": "0254-343d-eeb7-a1c4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "rules": [
+                  {
+                    "name": "Fearmonger's Whip - Melee Ability",
+                    "id": "8b78-aded-1f84-bc53",
+                    "description": "Gain Lethal X, where X is equal to the number of panic tokens on the defender.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Dragonjaw Focus",
+                "id": "d5ae-99db-0965-be4a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "rules": [
+                  {
+                    "name": "Dragonjaw Focus - Skill Ability",
+                    "id": "f972-fcbc-de7b-3a4b",
+                    "description": "Choose an enemy at range 1-[Unstable Rune]. Draw 1 morale card. You may have the enemy suffer the effects of that card. If you do, then you suffer the effects of that card. \n\nAfter you resolve this Skill, you may resolve another of your Skill abilities.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion",
+        "id": "e94b-900b-8795-bdc7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "7480-b389-f1b5-cb3c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Champion - Common",
+            "id": "bbb4-7a10-27f5-0c65",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b7ba-cdfe-eac7-f299",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Champion - Uthuk",
+            "id": "6ce5-be1c-8e15-5e12",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6cb2-6b8a-efb8-edaf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Ravos the Everhungry (Seige Upgrade)",
+                "id": "8f93-9c73-b329-3f2a",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cfef-3fa7-2e71-12ee",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": false,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 13}],
+                "infoLinks": [
+                  {
+                    "name": "Precise [X]",
+                    "id": "9ad9-5110-e794-4d2e",
+                    "hidden": false,
+                    "targetId": "4309-11a6-e7f5-5a76",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+                  },
+                  {
+                    "name": "Steadfast [X]",
+                    "id": "491a-90f4-9610-3bf0",
+                    "hidden": false,
+                    "targetId": "94ec-3f37-454f-92ad",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Steadfast [Fear]"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "cfef-3fa7-2e71-12ee",
+                    "type": "set",
+                    "value": 0,
+                    "conditions": [
+                      {
+                        "childId": "7b00-d97e-8028-d00a",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "roster",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "3ff1-c335-bd67-644a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ravos the Everhungry (Seige Upgrade)",
+                    "id": "aa16-569d-5d3f-62b1",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "5", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Ravos the Everhungry - Passive Ability",
+                    "id": "7010-354a-a979-279e",
+                    "description": "Before each End Phase, you must choose a unit at range 1. It suffers 1 wound.\n\nAfter setup, each enemy receives 1 panic token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Blood Diviner",
+                "id": "3b52-1668-d932-a7cd",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Blood Diviner",
+                    "id": "ca59-9ce0-a1cf-88b0",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Blood Diviner - Passive Ability",
+                    "id": "c52c-e3c8-84b1-0d82",
+                    "description": "At the start of each round, look at the top [Stable Rune] cards of your morale deck. You may exhaust this card to discard 1 of those cards.\n\nWhen a unit at range 1-3 loses 1 or more figures, if this card is exhausted, you may ready it.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Bloodfire Witch",
+                "id": "346c-ff05-2fd7-4cae",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Bloodfire Witch",
+                    "id": "7f15-3207-250d-2d43",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Bloodfire Witch - Passive Ability",
+                    "id": "b2f1-f90f-2952-5329",
+                    "description": "After energy tokens are cast during setup and the End Phase, you may either:\n-Exhaust this card to recast 1 energy token. \n-Suffer 1 wound to recast 1 energy token with inactive [Unstable Rune] runes, even if this card is exhausted.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Cacophony Reaver",
+                "id": "9529-d127-3bfa-1f60",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+                "infoLinks": [
+                  {
+                    "name": "Lethal [X]",
+                    "id": "319e-1454-755e-d7d2",
+                    "hidden": false,
+                    "targetId": "4734-4adc-bba1-0b47",
+                    "type": "rule",
+                    "modifiers": [
+                      {"field": "name", "type": "set", "value": "Lethal X."},
+                      {"field": "description", "type": "set", "value": "X is the number of moral symbols on the revealed moral card."}
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Cacophony Reaver",
+                    "id": "1301-ba9e-4888-78ee",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Cacophony Reaver - Passive Ability",
+                    "id": "3bbe-552f-60a4-a27d",
+                    "description": "Play with the top card of your morale deck revealed.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Grotesque Slasher",
+                "id": "9d71-05ad-9135-8422",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Grotesque Slasher",
+                    "id": "09e3-f820-0e58-412d",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "2", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Grotesque Slasher - Melee Ability",
+                    "id": "4eae-9c1e-362e-3e1b",
+                    "description": "After this Melee Attack, you may exhaust this upgrade to roll 1 blue die.\n-If you roll a Hit, the defender receives 1 stun token. \n-If you roll a Surge, the defender receives 1 immobilize token. \n\nThen, this figure may suffer 1 wound to ready this card.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Mutilated Grotesque",
+                "id": "6e53-dad1-ad51-c704",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Mutilated Grotesque",
+                    "id": "062e-d243-6cd7-9f11",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "1", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "2", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Mutilated Grotesque - Melee / Ranged Ability",
+                    "id": "e057-1e54-9e57-e320",
+                    "description": "You may exhaust this card to add Morale.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Mutilated Grotesque - Passive Ability",
+                    "id": "cdd0-9ba5-e482-a7d4",
+                    "description": "When an enemy engaged with you suffers a morale test, draw 1 additional morale card, even if this card is exhausted.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Psychosis Siren",
+                "id": "a496-c5d2-fce5-0123",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Psychosis Siren",
+                    "id": "ff6b-5bbc-6c21-21a4",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Psychosis Siren - Skill Ability",
+                    "id": "9702-f760-9728-577a",
+                    "description": "You may exhaust this card to cause each enemy at range 1-[Unstable Rune] to suffer a severity-1 morale test.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Psychosis Siren - Skill Ability",
+                    "id": "7c14-b092-3ad0-14ad",
+                    "description": "Choose an enemy at range 1-[Unstable Rune], even if this card is exhausted. That enemy receives 1 panic token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Kethra A'laak (CavalryUpgrade)",
+                "id": "287b-fbf1-0554-3a0c",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "b0b2-bdff-2e7f-674a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 12}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "2cc7-a84f-a61e-6c1c",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "field": "b0b2-bdff-2e7f-674a",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "abd8-b1a0-8782-6e2a",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "fa6c-3fcf-0713-d023",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Kethra A'laak (Cavalry Upgrade)",
+                    "id": "93d7-705f-3c33-22f3",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "2", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Kethra A'laak (Cavalry Upgrade) - Melee Ability",
+                    "id": "3904-e092-471d-16df",
+                    "description": "You may replace 1 die with a white die.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Kethra A'laak (Cavalry Upgrade) - Skill Ability",
+                    "id": "f860-944f-3271-a204",
+                    "description": "Choose an ally and roll 1 white die. That ally and each enemy at range 1-2 of that ally suffer wounds equal to the number of Hit results.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Kethra A'laak (Infantry Upgrade)",
+                "id": "abd8-b1a0-8782-6e2a",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "5184-14a4-b7c2-8c67",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 12}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "field": "5184-14a4-b7c2-8c67",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "fa6c-3fcf-0713-d023",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "287b-fbf1-0554-3a0c",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Kethra A'laak (Infantry Upgrade)",
+                    "id": "406f-9a1c-8520-e9d2",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "2", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Kethra A'laak (Infantry Upgrade) - Melee Ability",
+                    "id": "3e8f-b549-a1fd-a533",
+                    "description": "You may replace 1 die with a white die.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Kethra A'laak (Infantry Upgrade) - Skill Ability",
+                    "id": "6e05-4078-5b44-0512",
+                    "description": "Choose an ally and roll 1 white die. That ally and each enemy at range 1-2 of that ally suffer wounds equal to the number of Hit results.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Beastmaster Th'Uk Tar (Cavalry Upgrade)",
+                "id": "61d0-2f3a-201a-38c8",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "52ad-6b24-3c4b-77e2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 14}],
+                "infoLinks": [
+                  {
+                    "name": "Precise [X]",
+                    "id": "a478-9db8-20e6-e25d",
+                    "hidden": false,
+                    "targetId": "4309-11a6-e7f5-5a76",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "52ad-6b24-3c4b-77e2",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "0aa7-de8d-c681-d208",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 0
+                          },
+                          {
+                            "childId": "5445-c85c-0539-1956",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "ab42-5174-a6ce-4b73",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "roster",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "2cc7-a84f-a61e-6c1c",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Beastmaster Th'Uk Tar",
+                    "id": "b619-049a-4b8e-afa0",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "3", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Beastmaster Th'Uk Tar",
+                    "id": "228c-d117-8da3-4755",
+                    "description": "Before you reveal your command tool, this unit may suffer 1 wound, then perform a speed-1 Shift or a Reform.\n\nThis unit does not receive panic tokens when it performs a March or Shift and collides with an enemy.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Th'Uk Tar and Gorgemaw (Siege Upgrade)",
+                "id": "0aa7-de8d-c681-d208",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9efe-6ae3-aaa0-bec9",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 19}],
+                "modifiers": [
+                  {
+                    "field": "9efe-6ae3-aaa0-bec9",
+                    "type": "set",
+                    "value": 0,
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "ab42-5174-a6ce-4b73",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "5445-c85c-0539-1956",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "61d0-2f3a-201a-38c8",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "3ff1-c335-bd67-644a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Th'Uk Tar and Gorgemaw (Siege Upgrade)",
+                    "id": "f66b-dae7-1b92-15f6",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "3", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "3", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {"name": "Th'Uk Tar and Gorgemaw (Siege Upgrade) - Melee Ability", "id": "3584-0376-0bd9-8af0", "description": "You may add 1 red die.", "hidden": false},
+                  {
+                    "name": "Th'Uk Tar and Gorgemaw (Siege Upgrade) - Passive Ability",
+                    "id": "d695-e797-d13d-bf93",
+                    "description": "Before you reveal your command tool,  this unit may suffer 1 wound, then perform a speed-1 Shift or a Reform.\n\nThis unit does not receive panic tokens when it performs a march or shift and collides with an enemy.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Viper Trapmaster",
+                "id": "439b-527a-8d5e-182d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "a4ca-4222-dafc-7f9c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 1}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "4998-4a4f-5b60-9240",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Viper Trapmaster - Passive Ability",
+                    "id": "9440-5d78-3ef4-3148",
+                    "description": "Before deployment, choose 1 terrain and place 1 bane of your choice on it.\n\nAfter the Command Phase, you may discard this card to remove that bane and cause 1 enemy at range 1-2 of that terrain to receive that bane.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Equipment",
+        "id": "878f-3cce-b6d2-e273",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "f7e9-c2cf-e17a-848a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Equipment - Common",
+            "id": "b630-c2c3-a3a8-ef82",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5cf1-ff93-7471-c1b5",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipment - Uthuk",
+            "id": "2d0c-15fc-fa16-249d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "b2bc-1620-4928-7a95",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Ritual Venom",
+                "id": "4d73-6105-92fc-be43",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "rules": [
+                  {
+                    "name": "Ritual Venom - Passive Ability",
+                    "id": "f5a6-46ab-e301-a1ca",
+                    "description": "Before your activation, you may suffer up to [Natural Rune] wounds to place an equal number of bane tokens of 1 type of your choice on this card. Limit once per game.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Ritual Venom - Melee / Ranged Ability",
+                    "id": "b284-e933-cebf-b21e",
+                    "description": "You may remove 1 bane token from this card. Then the defender receives that bane token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Serrated Spines",
+                "id": "3ab9-042e-f991-3098",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "rules": [{"name": "Serrated Spines - Melee Ability", "id": "8332-d71c-8938-0510", "description": "Gain Lethal [Stable Runes] for this Melee Attack", "hidden": false}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy",
+        "id": "975d-b0ec-af0f-407c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "d984-d057-cd7b-597b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Heavy - Common",
+            "id": "1e8e-a42f-b0af-d7fd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "5a32-3406-87f9-36d3",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Heavy - Uthuk",
+            "id": "4723-3c6c-5462-eba8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "78c9-68a6-37ed-c903",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Frontline Spined Thresher",
+                "id": "0557-c57e-e51e-9da2",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "publicationId": "9842-8651-pubN69407",
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+                "infoLinks": [
+                  {
+                    "name": "Brutal [X]",
+                    "id": "fef5-d558-bf7a-59e8",
+                    "hidden": false,
+                    "targetId": "4bc3-5a1a-a748-31de",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Brutal 1"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Frontline Spined Thresher",
+                    "id": "8434-df8c-feef-cbd3",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "5", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Frontline Spined Thresher - Melee Ability",
+                    "id": "ffd8-ce04-645a-bac2",
+                    "description": "If the defender has a panic token, you may reroll 1 die.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Support Spined Thresher",
+                "id": "8a15-5e28-1baf-d32d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "publicationId": "9842-8651-pubN69407",
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "infoLinks": [
+                  {
+                    "name": "Steadfast [X]",
+                    "id": "6ad3-a9cd-0ea9-b93b",
+                    "hidden": false,
+                    "targetId": "94ec-3f37-454f-92ad",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Steadfast [Fear]"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Support Spined Thresher",
+                    "id": "d4c4-5103-1e1f-726b",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "5", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Support Spined Thresher - Passive Ability",
+                    "id": "a0ba-2a51-59bd-e14e",
+                    "description": "After your activation, each enemy at range 1-[Unstable Rune] without a panic token receives 1 panic token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Support Obscene",
+                "id": "b1bc-7095-dcdd-44a8",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "infoLinks": [
+                  {
+                    "name": "Protected [X]",
+                    "id": "4883-940d-4665-837b",
+                    "hidden": false,
+                    "targetId": "4b78-f83c-2b4b-61a6",
+                    "type": "rule",
+                    "modifiers": [{"field": "name", "type": "set", "value": "Protected 1"}]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Support Obscene",
+                    "id": "0e48-2ded-5ec2-4163",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "4", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {"name": "Support Obscene - Passive Ability", "id": "a6d9-94d2-1a8c-27b5", "description": "You must deploy this figure to your back rank.", "hidden": false},
+                  {
+                    "name": "Support Obscene - Skill Ability",
+                    "id": "ba94-5aee-5886-ea9f",
+                    "description": "Choose an enemy engaged with you that has fewer trays than you. That enemy performs a speed-1 Shift in a direction of your choice. This Shift cannot be used to enter or exit terrin.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Front Line Obscene",
+                "id": "8d13-a03f-110f-cc22",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+                "infoLinks": [{"name": "Protected [X]", "id": "1b15-6300-8ff6-a286", "hidden": false, "targetId": "4b78-f83c-2b4b-61a6", "type": "rule"}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Front Line Obscene",
+                    "id": "cda4-f0fb-12c3-160a",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "2", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "4", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Front Line Obscene - Melee Ability",
+                    "id": "7870-2c14-2071-3c15",
+                    "description": "Unique Surge: If you have at least 1 wound token or 1 empty slot in your trays, the defender receives 1 blight token.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Music",
+        "id": "1fa6-65e2-88f0-b03e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "2d0f-963a-ee81-cd28",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Music - Common",
+            "id": "020c-00a8-076c-3a0c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4228-c1b3-e02a-f5f5",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Music - Uthuk",
+            "id": "f96a-b932-9e7d-1673",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "43ad-5bb2-854b-1a45",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Aggressive Shrieker",
+                "id": "2ebb-f97f-860c-8214",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Aggressive Shrieker",
+                    "id": "bb15-e262-c47c-5d12",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "1", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Aggressive Shrieker - Passive Ability",
+                    "id": "4468-edcd-6b27-0d3b",
+                    "description": "When you perform a March, treat it as modified by Charge. You do not receive panic tokens for failing to collide with an enemy during a charge.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Rallying Shrieker",
+                "id": "e268-3c86-9b40-0e7d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Rallying Shrieker",
+                    "id": "5e8b-745d-f14c-e6b3",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "1", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Rallying Shrieker - Skill Ability",
+                    "id": "c29d-621f-9d59-fabf",
+                    "description": "Each other ally at range 1-3 may choose to either remove 1 bane or ready 1 upgrade card.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Tactical Shrieker",
+                "id": "29ac-eb46-981e-30ea",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "98a3-99cd-95be-3334",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Tactical Shrieker",
+                    "id": "cdb8-ef58-d4c7-9fb6",
+                    "hidden": false,
+                    "typeId": "f9ab-8b42-328f-3746",
+                    "typeName": "Figure Upgrade",
+                    "characteristics": [{"name": "Defence", "$text": "4", "typeId": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "$text": "1", "typeId": "478e-fdd9-620e-774b"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Tactical Shrieker - Passive Ability",
+                    "id": "3b77-3549-9be0-179d",
+                    "description": "You do not receive panic tokens for disengaging from enemies.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Training",
+        "id": "a0e7-4dd8-e2e2-b31a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "bcfe-d1de-45ff-8110",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Training - Common",
+            "id": "d809-de9f-aebc-e48c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "993b-5c86-de69-2f9d",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Training - Uthuk",
+            "id": "6a7f-2844-6ae0-b979",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "ca86-cfbf-d7b7-013d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Aim of the Serpent",
+                "id": "11bb-c46a-fd2d-d199",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+                "rules": [
+                  {
+                    "name": "Aim of the Serpent - Ranged Unique Surge Ability",
+                    "id": "4c3f-8387-0422-3d3e",
+                    "description": "Discard 1 bane token from the defender. That unit receives 1 other bane of your choice.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unique",
+        "id": "4aaa-1b72-1e41-2434",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "ab61-695a-a571-e725",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "entryLinks": [
+          {
+            "name": "Unique - Common",
+            "id": "a24d-8ce9-3364-021d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0e94-cfca-f649-6686",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Unique - Uthuk",
+            "id": "1aea-1165-2d8d-4f4d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "566b-320e-d5fa-4d44",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Fear Incarnate",
+                "id": "7834-47bb-7421-c123",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "7b00-d97e-8028-d00a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Fear Incarnate - Passive Ability",
+                    "id": "020f-4f8d-1d92-e0c5",
+                    "description": "After an enemy at range 1-5 suffers a morale test, it suffers damage equal to the number of moral symbols on the chosen card.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Insatiable Hunger",
+                "id": "d2f4-0609-f1dc-0466",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "7b00-d97e-8028-d00a",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": false,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Insatiable Hunger - Passive Ability",
+                    "id": "e148-543a-5cb8-aa6a",
+                    "description": "Before each End Phase, you may perform a speed-1 or -2 March. You may treat this March as modified by Turn.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Bestial Ferocity",
+                "id": "89a7-9d4b-7efc-2930",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "ab42-5174-a6ce-4b73",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Bestial Ferocity - Passive Ability",
+                    "id": "8a22-76e3-95ae-3587",
+                    "description": "Before you reveal your command tool, you may perform a speed-1 Shift. This Shift cannot be used to exit terrain.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Cunning Strikes",
+                "id": "2705-88fb-c5ea-49a2",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "ab42-5174-a6ce-4b73",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Cunning Strikes - Melee Ability",
+                    "id": "65ae-b512-eb0d-ac7c",
+                    "description": "If you are not engaged with the defender and are not in the defender's line of sight, you may exhaust this card to treat your front edge as touching the defender's back edge for this attack.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Bonecaster",
+                "id": "27ed-8d2e-dc5c-a538",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 8}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "fa6c-3fcf-0713-d023",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [{"name": "Bonecaster - Passive Ability", "id": "424d-a704-4088-a194", "description": "You may perform your Melee Attack as a Ranged Attack.", "hidden": false}]
+              },
+              {
+                "name": "Driven Fury",
+                "id": "ada6-7ebd-2699-e1ac",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "ab42-5174-a6ce-4b73",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Driven Fury - Passive Ability",
+                    "id": "a977-fd2c-13ed-4413",
+                    "description": "When you resolve a Skill to cause an ally to perform a speed-1 Shift, that unit may treat that Shift as modified by Charge. Then that ally receives 1 stun token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Tyrant's Lash",
+                "id": "77e3-ff72-cd26-5870",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "ab42-5174-a6ce-4b73",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Tyrant's Lash - Melee Ability",
+                    "id": "7b60-3739-a365-5b04",
+                    "description": "Your front edge is also treated as touching the front edge of all enemies at range 1 and in your side firing arcs that you are not engaged with.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Tyrant's Lash - Skill Ability",
+                    "id": "412b-4fb3-1029-50d1",
+                    "description": "Choose an ally at range 1-2. That ally suffers 1 wound, then discards all of its banes.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Cruel Master",
+                "id": "d021-0c35-c0b9-030d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "5445-c85c-0539-1956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Cruel Master - Skill Ability",
+                    "id": "29ba-b523-3771-a840",
+                    "description": "You may choose another non-unique ally at range 1-2. It suffers 1 wound, then performs either a Reform or speed-1 Shift.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Crushing Jaws",
+                "id": "858b-6c85-3092-4d28",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "5445-c85c-0539-1956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Crushing Jaws - Melee Ability",
+                    "id": "5558-fc03-6708-a511",
+                    "description": "If this is the second Melee Attack you perform during your activation, gain \"Unique Surge: Brutal 1\" for this attack.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Grasping Coils",
+                "id": "cec1-b786-001c-0774",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "5445-c85c-0539-1956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Grasping Coils - Passive Ability",
+                    "id": "5118-f1f5-8de9-a95b",
+                    "description": "Units engaged with you cannot perform Reform or Shift during their activation.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Lunging Terror",
+                "id": "1768-4931-f7a7-1a8d",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "rules": [
+                  {
+                    "name": "Lunging Terror - Passive Ability",
+                    "id": "e915-4b89-96fb-635b",
+                    "description": "Impact [Stable Runes] (When you collide with an enemy unit during a charge, that unit receives [Stable Rune] panic tokens.)",
+                    "hidden": false,
+                    "modifiers": [
+                      {
+                        "field": "hidden",
+                        "type": "set",
+                        "value": false,
+                        "conditions": [
+                          {
+                            "childId": "5445-c85c-0539-1956",
+                            "field": "selections",
+                            "includeChildForces": false,
+                            "includeChildSelections": false,
+                            "percentValue": false,
+                            "scope": "ancestor",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 0
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Thrashing Tail",
+                "id": "e46b-ffcf-da2a-ddff",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "5445-c85c-0539-1956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Thrashing Tail - Passive Ability",
+                    "id": "9eab-0219-cf82-c01c",
+                    "description": "After you perform a Reform, you may exhaust this card to cause each enemy at range 1 to suffer 2 damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Whirling Sinew",
+                "id": "a91d-97d4-f166-df9f",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "5445-c85c-0539-1956",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Whirling Sinew - Passive Ability",
+                    "id": "e030-9494-36d8-a1ac",
+                    "description": "After you perform a Melee Attack while you are not engaged, you may perform a Reform.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Kingsbone Armor",
+                "id": "0bb1-d804-e302-4bdf",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "fa6c-3fcf-0713-d023",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Kingsbone Armor - Passive Ability",
+                    "id": "a55e-e1eb-6c1e-e747",
+                    "description": "Your defense is increased by 1.\n\nWhen you collide with an enemy or an enemy collides with you, that enemy suffers 2 damage.\n\nWhen an enemy engaged with you activates, it suffers 2 damage.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Feeding Frenzy",
+                "id": "9906-ee56-7093-6755",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "438e-0c39-0d9c-3dad",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Feeding Frenzy - Passive Ability",
+                    "id": "9d5c-b367-102f-afea",
+                    "description": "When an enemy engaged with you loses 1 or more trays, for each tray lost, place 1 wound token on this card.\n\nFor every 3 wound tokens on this card, you gain Lethal 1.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Dead Sprint",
+                "id": "0b37-8891-0ac3-76fa",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "438e-0c39-0d9c-3dad",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Dead Sprint",
+                    "id": "43b1-3d82-1646-fa7c",
+                    "description": "During your activation, you may increase the speed of your first March by 1 or treat it as modified by Turn.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Devouring Maws",
+                "id": "2c63-07ec-fe9d-9acd",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "6117-bd29-d52c-5b9d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [{"name": "Devouring Maws - Melee Ability", "id": "57ac-8d58-c835-cef4", "description": "You may remove 1 wound.", "hidden": false}]
+              },
+              {
+                "name": "Scuttling Horror",
+                "id": "015f-4636-8fc5-6c05",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "6117-bd29-d52c-5b9d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Scuttling Horror - Passive Ability",
+                    "id": "62c8-3c6d-c976-e09e",
+                    "description": "After each Command Phase, you may perform a speed-1 Shift sideways, even if this card is exhausted.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Scuttling Horror - Melee Ability",
+                    "id": "0e46-0be8-9e06-7989",
+                    "description": "You may exhaust this card to cause the defender to receive 1 stun token.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Ynfernael Blood",
+                "id": "467c-8188-f22d-74ff",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "14cc-2968-69a0-fe3d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Ynfernael Blood - Passive Ability",
+                    "id": "b875-0256-8955-d9eb",
+                    "description": "Blight tokens cannot be spent to remove 1 die from this unit's attack. Instead, after rerolls, a blight token can be spent to reroll all of this unit's attack dice.",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Odious Appetite",
+                "id": "f3a7-8fc4-1f72-2429",
+                "collective": false,
+                "hidden": true,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+                "modifiers": [
+                  {
+                    "field": "hidden",
+                    "type": "set",
+                    "value": false,
+                    "conditions": [
+                      {
+                        "childId": "14cc-2968-69a0-fe3d",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "ancestor",
+                        "shared": true,
+                        "type": "instanceOf",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Odious Appetite - Passive Ability",
+                    "id": "3bdd-a2d7-8211-5366",
+                    "description": "After another unit at range 1 suffers a wound, you may exhaust this card to discard 1 wound token.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

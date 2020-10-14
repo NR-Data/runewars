@@ -1,0 +1,852 @@
+{
+  "gameSystem": {
+    "name": "Runewars",
+    "id": "8c15-bb29-54a4-9982",
+    "battleScribeVersion": 2.03,
+    "revision": 36,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Infantry", "id": "98a3-99cd-95be-3334", "hidden": false},
+      {"name": "Cavalry", "id": "2cc7-a84f-a61e-6c1c", "hidden": false},
+      {"name": "Siege", "id": "3ff1-c335-bd67-644a", "hidden": false}
+    ],
+    "costTypes": [{"name": " Points", "id": "eec9-41b4-b794-8076", "defaultCostLimit": -1, "hidden": false}],
+    "forceEntries": [
+      {
+        "name": "Standard Army",
+        "id": "b433-96b0-6e5d-458b",
+        "hidden": false,
+        "categoryLinks": [
+          {"name": "Infantry", "id": "b433-96b0-6e5d-458b-98a3-99cd-95be-3334", "hidden": false, "primary": false, "targetId": "98a3-99cd-95be-3334"},
+          {"name": "Cavalry", "id": "b433-96b0-6e5d-458b-2cc7-a84f-a61e-6c1c", "hidden": false, "primary": false, "targetId": "2cc7-a84f-a61e-6c1c"},
+          {"name": "Siege", "id": "b433-96b0-6e5d-458b-3ff1-c335-bd67-644a", "hidden": false, "primary": false, "targetId": "3ff1-c335-bd67-644a"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "d30b-0349-297b-76db",
+        "characteristicTypes": [
+          {"name": "Defense", "id": "7cf7-db3d-20b4-3ee8"},
+          {"name": "Wound Threshold", "id": "aa47-e393-e539-b8e5"},
+          {"name": "Ranged Die", "id": "8dc7-1ab7-4083-38cb"},
+          {"name": "Melee Die", "id": "9cf6-3b5e-3c94-0ef4"}
+        ]
+      },
+      {
+        "name": "Figure Upgrade",
+        "id": "f9ab-8b42-328f-3746",
+        "characteristicTypes": [{"name": "Defence", "id": "1523-b236-6620-1be9"}, {"name": "Wound Threshold", "id": "478e-fdd9-620e-774b"}]
+      }
+    ],
+    "publications": [
+      {"name": "Core Set, Oathsworn Cavalry, Essentials Pack, Waqir Infantry Command, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN65866"},
+      {"name": "Core Set, Oathsworn Cavalry", "id": "8c15-bb29-pubN65919"},
+      {"name": "Reanimate Archers, Rune Golems", "id": "8c15-bb29-pubN65972"},
+      {"name": "Reanimate Archers", "id": "8c15-bb29-pubN66025"},
+      {"name": "Daqan Infantry Command, Carrion Lancers, Deepwood Archers, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN66078"},
+      {"name": "Oathsworn Cavalry", "id": "8c15-bb29-pubN66169"},
+      {"name": "Core Set", "id": "8c15-bb29-pubN66275"},
+      {"name": "Reanimate Archers, Deepwood Archers, Heavy Crossbowmen", "id": "8c15-bb29-pubN66340"},
+      {"name": "Leonx Riders Unit Expansion, Death Knights, Heavy Crossbowmen", "id": "8c15-bb29-pubN66393"},
+      {"name": "Core Set, Reanimate Archers", "id": "8c15-bb29-pubN66536"},
+      {"name": "Core Set, Essentials Pack, Rune Golems, Leonx Riders, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN66642"},
+      {"name": "Waqir Infantry Command, Waiqar Infantry Command, Latari Elves Army Expansion, Spearmen, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN66707"},
+      {"name": "Reanimates, Heavy Crossbowmen", "id": "8c15-bb29-pubN66760"},
+      {"name": "Spearmen, Waqir Infantry Command, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN66957"},
+      {"name": "Ankaur Maro, Death Knights, Lord Hawthorne, Maegan Cydewin", "id": "8c15-bb29-pubN67268"},
+      {"name": "Oathsworn Cavalry, Reanimates", "id": "8c15-bb29-pubN67371"},
+      {"name": "Core Set, Spearmen, Essentials Pack, Latari Elves Infantry Command, Uthuk Y'llan Army Expansion", "id": "8c15-bb29-pubN67424"}
+    ],
+    "sharedRules": [
+      {
+        "name": "Impact [X]",
+        "id": "3acc-998c-be8b-5314",
+        "description": "When a unit with this keyword collides with an enemy unit during a charge, that unit recives X panic tokens.",
+        "hidden": false
+      },
+      {"name": "Brutal [X]", "id": "4bc3-5a1a-a748-31de", "description": "While attacking, a unit with this keyword has its threat increased by X.", "hidden": false},
+      {
+        "name": "Precise [X]",
+        "id": "4309-11a6-e7f5-5a76",
+        "description": "When rerolling dice during an attack, a unit with this keyword is treated as having X additional full rank of trays.",
+        "hidden": false
+      },
+      {
+        "name": "Steadfast [X]",
+        "id": "94ec-3f37-454f-92ad",
+        "description": "While a unit with this keyword is suffering a morale test, the cards of the type specified by X are treated as having one additional morale icon.",
+        "hidden": false
+      },
+      {
+        "name": "Regenerate [X]",
+        "id": "aa91-b501-7649-91ea",
+        "description": "At the end of the Activation Phase, if a unit with this keyword has any empty slots in its trays, slot X new figures corresponding with that unit's card in the empty slots.",
+        "hidden": false
+      },
+      {
+        "name": "Resillient [X]",
+        "id": "8d09-61a0-2bab-847a",
+        "description": "If a unit with this keyword would receive the bane specifed by X, the unit does not recieve that bane.",
+        "hidden": false
+      },
+      {
+        "name": "Protector",
+        "id": "d922-50db-76e7-150a",
+        "description": "Allies engaged with an enemy you are also engaged with and allies at range 1-2 cannot be targeted by attacks if that attack could target a unit with protector.",
+        "hidden": false
+      },
+      {"name": "Lethal [X]", "id": "4734-4adc-bba1-0b47", "description": "While attacking, add [X] to the damage pool.", "hidden": false},
+      {"name": "Protected [X]", "id": "4b78-f83c-2b4b-61a6", "description": "While defending, subtract [X] from the damage pool.", "hidden": false},
+      {
+        "name": "Scout",
+        "id": "6221-2275-02d3-4099",
+        "description": "Deploy after the \"Deploy Units\" step of setup. You may then perform any blue action and matching modifier.",
+        "hidden": false
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Unique Unit",
+        "id": "a20e-e06c-42d8-c597",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "9c10-92e1-e29a-2943",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          },
+          {
+            "id": "7704-395b-403a-557b",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 0
+          },
+          {
+            "id": "6067-963d-89f4-9344",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 0}],
+        "modifiers": [
+          {
+            "field": "7704-395b-403a-557b",
+            "type": "increment",
+            "value": 1,
+            "repeats": [
+              {
+                "childId": "any",
+                "field": "eec9-41b4-b794-8076",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "repeats": 1,
+                "roundUp": true,
+                "scope": "roster",
+                "shared": true,
+                "value": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Equipment - Common",
+        "id": "5cf1-ff93-7471-c1b5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "eb91-c7fd-cf18-30be",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Shield Wall",
+            "id": "5cde-b969-918f-c94e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN65866",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {
+                "name": "Shield Wall - Passive Ability",
+                "id": "5852-c31f-821c-a842",
+                "description": "While defending, if you have more rows than the attacker you may exhaust this card to increase your defence by 1 for this attack.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Master Crafted Weapons",
+            "id": "c4f2-4fb0-036b-ac61",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN65919",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+            "rules": [{"name": "Master Crafted Weapons - Melee Surge Ability", "id": "5cbf-bb72-bb95-2a09", "description": "2 Surge : Add 1 hit.", "hidden": false}]
+          },
+          {
+            "name": "Wind Rune",
+            "id": "09ce-b554-c398-00dc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN65972",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+            "rules": [
+              {
+                "name": "Wind Rune - Skill Ability",
+                "id": "43b7-e4a0-26c6-16f0",
+                "description": "Perform a speed [Natural Rune] Shift. Then, perform a Reform\nThis Shift cannot be used to disengage.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Tempered Steel",
+            "id": "3544-0cc5-9735-8e29",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66025",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+            "rules": [
+              {
+                "name": "Tempered Steel - Melee / Ranged Surge Ability",
+                "id": "d7d6-8e69-54f3-f38e",
+                "description": "Surge : Exhaust this card to add 1 hit.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Fire Rune",
+            "id": "3f21-7545-b6b9-62e4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66078",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+            "rules": [
+              {
+                "name": "Fire Rune - Skill Ability",
+                "id": "a5b1-3ed5-e287-f078",
+                "description": "Perform a Ranged Attack rolling 1 red die. Each Hit of this attack causes the defender to suffer damage equal to Unstable Rune's instead of your threat.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Corruption Rune",
+            "id": "0cd5-2196-89e2-2885",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+            "rules": [
+              {
+                "name": "Corruption Rune - Skill Ability",
+                "id": "16e5-3990-841a-dd9d",
+                "description": "Choose an enemy at range 1-[Unstable Runes] adn discard the top card of your morale deck. That enemy suffers damage equal to the number of morale icons on that card, then receives 1 bane based on the card's type:\n-Confusion: Stun\n-Doubt: Panic\n-Fear: Immobilize",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Training - Common",
+        "id": "993b-5c86-de69-2f9d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "e99e-369e-8c89-80ef",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Flank Guards",
+            "id": "64f8-b6e3-dd5d-18ff",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66169",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {
+                "name": "Flank Guards - Passive Ability",
+                "id": "0518-d2da-4e6a-50f6",
+                "description": "While you are defending, enemies do not add an extra die for flanking you.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Moment of Inspiration",
+            "id": "baeb-ddfc-5071-d907",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66169",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {"name": "Moment of Inspiration - Melee Ability", "id": "c6ec-16b6-eb27-52bb", "description": "You may exhaust this card to add 1 white die.", "hidden": false}
+            ]
+          },
+          {
+            "name": "Rank Discipline",
+            "id": "7e89-2dae-48ea-724e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66275",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+            "infoLinks": [
+              {
+                "name": "New InfoLink",
+                "id": "0c6b-cdd0-9ca5-ea03",
+                "hidden": false,
+                "targetId": "4309-11a6-e7f5-5a76",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Precise 1"}]
+              }
+            ]
+          },
+          {
+            "name": "Close Quarters Targeting",
+            "id": "a15e-216f-08ae-9777",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66340",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+            "rules": [
+              {
+                "name": "Close Quarters Targeting - Ranged Ability",
+                "id": "a918-a61b-3633-9721",
+                "description": "You can target enemies engaged with you.\n\nYou do not suffer the moral test for being engaged with the defender of this ranged attack (other allies engaged with the defender suffer the moral test as normal.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Column Tactics",
+            "id": "6486-7209-778f-9928",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66393",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+            "rules": [
+              {
+                "name": "Column Tactics - Melee Ability",
+                "id": "eef5-b49d-5ce9-c5d4",
+                "description": "Your threat is equal to the number of partial and full ranks.\nYour number of ranks for rerolls is equal to the number of trays in your front rank.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Simultaneous Orders",
+            "id": "7fb8-eb50-4911-e1fe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+            "rules": [
+              {
+                "name": "Simultaneous Orders - Passive Ability",
+                "id": "ec16-505f-9537-eaed",
+                "description": "After you perform a Skill Ability, you may resolve the effects of another of your Skill Abilities.",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heraldry - Common",
+        "id": "dafc-f19e-db1b-2401",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "bebb-5fd8-bf4a-c688",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Terrifying Heraldry",
+            "id": "0f6b-bc65-ac8c-5973",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66536",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {
+                "name": " Terrifying Heraldry - Passive Ability",
+                "id": "6057-2eb2-85e8-0a8d",
+                "description": "At the start of the End Phase, each unit engaged with you receives 1 panic token.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Heraldic Surcoats",
+            "id": "635a-ae4f-1bf3-0854",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66169",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {
+                "name": "Heraldic Surcoats - Passive Ability",
+                "id": "6029-14c1-4d9f-4033",
+                "description": "When you suffer a moral test, your opponent draws 1 fewer card, to a minimum of 1.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Bull Pennon",
+            "id": "909a-b66c-9933-234a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66642",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+            "infoLinks": [
+              {
+                "name": "New InfoLink",
+                "id": "470d-3202-8e05-8d3d",
+                "hidden": false,
+                "targetId": "3acc-998c-be8b-5314",
+                "type": "rule",
+                "modifiers": [{"field": "name", "type": "set", "value": "Bull Pennon - Impact 1"}]
+              }
+            ]
+          },
+          {
+            "name": "Raven Tabards",
+            "id": "f203-0a99-b5fa-df4e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66707",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+            "rules": [
+              {
+                "name": "Raven Tabards - Passive Ability",
+                "id": "e704-f53d-5fc1-e3ac",
+                "description": "The initative of your blue actions is decreased by 1.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Cursed Signets",
+            "id": "c28a-6739-07ab-5e45",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66760",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+            "rules": [
+              {
+                "name": "Cursed Signets - Passive Ability",
+                "id": "2913-a1c8-1133-b07d",
+                "description": "When you would receive 1 or more banes, you instead suffer that number of wounds.",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Music - Common",
+        "id": "4228-c1b3-e02a-f5f5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "ab96-11f1-9101-f38e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Trumpets",
+            "id": "0ed2-8fd2-2425-75d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66275",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+            "rules": [{"name": "Trumpets - Passive Ability", "id": "0f48-bef8-7e2e-48d8", "description": "The Turn and Wheel modifers cannot reduce your speed.", "hidden": false}]
+          },
+          {
+            "name": "Metered March",
+            "id": "2ae1-f74f-ccc0-c098",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66275",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 2}],
+            "rules": [
+              {
+                "name": "Metered March - Passive Ability",
+                "id": "c597-0f72-f834-4b64",
+                "description": "When moving you may halt your movement at any point along the movement template.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Triumphant Cry",
+            "id": "7940-52b7-af48-8cc7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66957",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 3}],
+            "rules": [
+              {
+                "name": "Triumphant Cry - Passive Ability",
+                "id": "8be2-4548-8326-8e44",
+                "description": "After an enemy you are engaged with is destroyed, you may perform a Reform.",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Heavy - Common",
+        "id": "5a32-3406-87f9-36d3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "e5da-96fc-4378-dbce",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "name": "Artifact - Common",
+        "id": "d666-4b2a-f65e-0e17",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "f44f-f1f5-8d47-5d4e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Heartseeker",
+            "id": "c940-b86b-eb5c-4803",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66275",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "ae42-0196-1036-aa7b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 10}],
+            "rules": [
+              {
+                "name": "Heartseeker - Ranged Ability",
+                "id": "92f9-6fcc-bc63-c64e",
+                "description": "Ignore line of sight when choosing a target.",
+                "hidden": false,
+                "publicationId": "8c15-bb29-pubN66275"
+              }
+            ]
+          },
+          {
+            "name": "Reaping Blade",
+            "id": "50a9-4de6-6871-3486",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN66275",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "9997-196e-d0eb-2a5d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 4}],
+            "rules": [{"name": "Reaping Blade - Melee Ability", "id": "1dd5-104b-1c46-bde6", "description": "Die faces with no icons add a mortal strike.", "hidden": false}]
+          },
+          {
+            "name": "Fortuna's Dice",
+            "id": "ae11-055f-0cfe-477f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+            "rules": [
+              {
+                "name": "Fortuna's Dice - Melee / Ranged Ability",
+                "id": "17bf-0024-e755-5a2a",
+                "description": "Exhaust this card to change one die to a face of your choice.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "Shield of Margath",
+            "id": "3fbb-adfe-05d0-b8f8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN67268",
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "042d-fc72-f4a2-c836",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+            "rules": [
+              {
+                "name": "Shield of Margath - Passive Ability",
+                "id": "923c-f3e6-7416-2b1d",
+                "description": "After defending against a Melee Attack, the attacker suffers damage equal to your defense.",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Champion - Common",
+        "id": "b7ba-cdfe-eac7-f299",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "ffab-f74c-3469-f447",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Dispatch Runner",
+            "id": "7660-776c-a6b6-51bd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN67371",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 7}],
+            "rules": [
+              {
+                "name": "Dispatch Runner - Skill Ability",
+                "id": "0c0d-437e-5e55-ef20",
+                "description": "Exhaust this card to cause another ally at range 1-3 to make a melee attack. Then, that ally receives 1 stun token.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "War Crier",
+            "id": "674b-efbd-d8bc-f429",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "publicationId": "8c15-bb29-pubN67424",
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 5}],
+            "rules": [
+              {
+                "name": "War Crier - Skill Ability",
+                "id": "a495-0da5-b4bf-864e",
+                "description": "Spend 1 bane from your unit to choose 1 enemy unit at range 1-3. That unit receives 1 bane of that type.",
+                "hidden": false
+              }
+            ]
+          },
+          {
+            "name": "File Leader",
+            "id": "a194-baf2-b235-0e9e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "costs": [{"name": " Points", "typeId": "eec9-41b4-b794-8076", "value": 6}],
+            "rules": [
+              {
+                "name": "File Leader - Passive Ability",
+                "id": "d249-5bab-de1b-f5ec",
+                "description": "After an enemy collides with you during a charge, perform a Melee Attack ility targeting that enemy before that enemy's Melee Attack.\n\nThis Melee Attack can only be performed while your command dial is revealed with a Melee Attack Selected.",
+                "hidden": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Unique - Common",
+        "id": "0e94-cfca-f649-6686",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "constraints": [
+          {
+            "id": "0fbe-51a8-3ea6-7cae",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+}
